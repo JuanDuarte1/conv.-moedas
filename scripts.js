@@ -32,7 +32,7 @@ function convertValues() {
 
     }
 
-    if (currencySelect.value == "Bitcoin") {
+    if (currencySelect.value == "bitcoin") {
         //se o select estiver selecionado o valor de Bitcoin, entre aqui
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-US", {
             style: "currency",
@@ -41,7 +41,7 @@ function convertValues() {
 
     }
 
-    if (currencySelect.value == "Libra") {
+    if (currencySelect.value == "libra") {
         //se o select estiver selecionado o valor de Dolar, entre aqui
         currencyValueConverted.innerHTML = new Intl.NumberFormat("en-GB", {
             style: "currency",
@@ -53,9 +53,6 @@ function convertValues() {
             currency: "BRL"
         }).format(inputCurrencyValue)
 
-
-
-        console.log(convertValues)
     }
 
     function changeCurrency() {
