@@ -9,10 +9,10 @@ function convertValues() {
     const currencyValueToConvert = document.querySelector(".currency-value-to-convert") // valor em real
     const currencyValueConverted = document.querySelector(".currency-value") //outras moedas convertidas
 
-    const dolarToday = 5.03;
-    const euroToday = 5.32;
-    const bitcoinToday = 170.730;
-    const libraToday = 6.05;
+    const dolarToday = 5.03
+    const euroToday = 5.32
+    const bitcoinToday = 170.730
+    const libraToday = 6.05
 
     if (currencySelect.value == "dolar") {
         //se o select estiver selecionado o valor de Dolar, entre aqui
